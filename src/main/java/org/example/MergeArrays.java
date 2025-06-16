@@ -10,7 +10,7 @@ public class MergeArrays {
         int count1 = 0;
         int count2 = 0;
 
-// checking
+// checking for mistakes
         for (int i = 0; i < newLength; i++) {
             if (count1 < x.length && count2 < y.length) {
                 if (x[count1] < y[count2]) {
